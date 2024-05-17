@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Delete HANA Vector table",
+            "type": "debugpy",
+            "module": "scripts.delete_hana_vector_table",
+            "request": "launch",
+            "args": ["--table-name", "RAG_EXAMPLE_VECTORSTORE"]
+        },
+        {
+            "name": "Write to HANA Vector table",
+            "type": "debugpy",
+            "module": "scripts.write_to_hana_vector_table",
+            "request": "launch",
+            "args": ["--table-name", "RAG_EXAMPLE_VECTORSTORE"]
+        },
+        {
+            "name": "Launch REST API",
+            "type": "debugpy",
+            "module": "run",
+            "request": "launch"
+        }
+    ]
+}
