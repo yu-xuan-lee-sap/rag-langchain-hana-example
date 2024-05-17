@@ -41,3 +41,5 @@ poetry install
 poetry shell
 python run.py
 ```
+The Swagger UI of the app can be accessed in the browser by navigating to http://localhost:8000/docs.
+
