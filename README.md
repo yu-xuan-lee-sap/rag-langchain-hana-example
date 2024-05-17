@@ -12,6 +12,8 @@ This repo shows RAG codes in two different forms:
 ### Prerequisites
 - Python 3.9 and above [[link](https://www.python.org/downloads/)]
 - Poetry 1.6.1 and above [[link](https://python-poetry.org/docs/#installing-with-the-official-installer)]
+- Secrets for HANA DB [[example](./secrets/hana-secrets-example.json)]
+- Secrets for Generative AI Hub [[example](./secrets/gen-ai-hub-service-key-example.json)]
 - \[Optional\] Python extension installed (if using VS Code)
 
 ### Cloning Repo
